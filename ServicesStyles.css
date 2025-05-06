@@ -1,0 +1,1195 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+  .salsa-regular {
+      font-family: "Salsa", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+  
+  .caladea-regular {
+    font-family: "Caladea", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    
+    /*.caladea-bold {
+      font-family: "Caladea", serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .caladea-regular-italic {
+      font-family: "Caladea", serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .caladea-bold-italic {
+      font-family: "Caladea", serif;
+      font-weight: 700;
+      font-style: italic;
+    } */
+  
+  
+:root {
+    --bright-yellow: #FFE75E;
+    --dark-orange: #FEB72B;
+    --dark-pastel-green: #899857;
+    --pastel-green: #B5CF60;
+    --dark-green: #527318;
+    --mayonnaise: #FCE7C8;
+    --sage-green: #B1C29E;
+    --pastel-yellow: #FADA7A;
+    --pastel-orange: #F0A04B;
+    --dark-pastel-orange: #D88936;
+    --brown: #945D22;
+}
+
+.header-image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+.header-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+.header-image-container h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Salsa", cursive;
+}
+
+.services-section-content {
+    position: relative;
+    height: 315vh;
+    overflow: visible;
+}
+
+.circle-1 {
+    position: absolute;
+    left: 0;
+    transform: translateY(20%);
+    background-size: cover;
+    background-position: center;
+    width: 5%;
+    height: 5%;
+    z-index: -1;
+}
+
+.green-circle-1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.services-restaurant-section {
+    height: 315vh;
+}
+
+.services-restaurant-section h1 {
+    font-family: "Salsa", regular;
+    color: white;
+}
+
+.services-restaurant-section p {
+    font-family: "Caladea", serif;
+    color: white;
+}
+
+.make-reservation-button {
+    padding: 20px;
+    background-color: var(--dark-pastel-green);
+    font-family: "Salsa", cursive;
+    font-size: 3vh;
+    color: white;
+    border-radius: 30px;
+    width: 40vh;
+    border: 4px solid var(--sage-green);
+    cursor: pointer;
+}
+
+.restaurant-row-1 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.restaurant-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    min-height: 90vh;
+    width: 65vh;
+    background-color: var(--dark-orange);
+    transform: translate(40%, 10%);
+    border-radius: 30px;
+    padding-top: 20px;
+}
+
+.restaurant-1-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    padding: 0; 
+    height: auto;
+}
+
+.restaurant-1-img img {
+    display: block;
+    object-fit: cover;
+    width: 95%;
+    height: auto; 
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.restaurant-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+    margin-left: 5vh;
+}
+
+.restaurant-1-text h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.restaurant-1-text p {
+    text-align: center;
+    margin-top: 4vh; 
+    font-size: 3vh;
+}
+
+.restaurant-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    min-height: 90vh;
+    width: 65vh;
+    background-color: var(--dark-orange);
+    transform: translate(70%, 10%);
+    border-radius: 30px;
+    padding-top: 20px; 
+}
+
+.restaurant-2-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    padding: 0; 
+    height: auto;
+}
+
+.restaurant-2-img img {
+    display: block;
+    object-fit: cover;
+    width: 95%;
+    height: auto; 
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.restaurant-2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+    margin-left: 5vh;
+}
+
+.restaurant-2-text h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.restaurant-2-text p {
+    text-align: center;
+    margin-top: 4vh; 
+    font-size: 3vh;
+}
+
+.restaurant-row-2 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.restaurant-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    min-height: 90vh;
+    width: 65vh;
+    background-color: var(--pastel-green);
+    transform: translate(40%, 20%);
+    border-radius: 30px;
+    padding-top: 20px; 
+}
+
+.restaurant-3-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    padding: 0; 
+    height: auto;
+}
+
+.restaurant-3-img img {
+    display: block;
+    object-fit: cover;
+    width: 95%;
+    height: auto; 
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.restaurant-3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+    margin-left: 5vh;
+}
+
+.restaurant-3-text h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.restaurant-3-text p {
+    text-align: center;
+    margin-top: 4vh; 
+    font-size: 3vh;
+}
+
+/*70%, 10% */
+
+
+.restaurant-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 90vh;
+    width: 65vh;
+    background-color: var(--pastel-green);
+    transform: translate(70%, 20%);
+    border-radius: 30px;
+    padding-top: 20px; 
+}
+
+.restaurant-4-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    padding: 0; 
+    height: auto;
+}
+
+.restaurant-4-img img {
+    display: block;
+    object-fit: cover;
+    width: 95%;
+    height: auto; 
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.restaurant-4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+    margin-left: 5vh;
+}
+
+.restaurant-4-text h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.restaurant-4-text p {
+    text-align: center;
+    margin-top: 4vh; 
+    font-size: 3vh;
+}
+
+.restaurant-row-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 30vh;
+}
+
+.restaurant-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 90vh;
+    width: 65vh;
+    background-color: var(--dark-orange);
+    border-radius: 30px;
+    padding-top: 20px; 
+}
+
+.restaurant-5-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    padding: 0; 
+    height: auto;
+}
+
+.restaurant-5-img img {
+    display: block;
+    object-fit: cover;
+    width: 95%;
+    height: auto; 
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.restaurant-5-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+    margin-left: 5vh;
+}
+
+.restaurant-5-text h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.restaurant-5-text p {
+    text-align: center;
+    margin-top: 4vh; 
+    font-size: 3vh;
+}
+
+.malagos-parks-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.malagos-parks-header-image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+.malagos-parks-header-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+  
+.malagos-parks-header-image-container h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Salsa", cursive;
+}
+
+.malagos-parks-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    position: relative;
+}
+
+.malagos-parks-content-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+}
+
+.malagos-parks-content img {
+    height: 80vh;
+    width: auto;
+    margin-top: -25vh;
+}
+
+.malagos-parks-content p {
+    font-family: "Salsa", regular;
+    color: #6EA21B;
+    text-align: center;
+    font-size: 8vh;    
+    margin-top: 15px;
+}
+
+.malagos-parks-button {
+    padding: 15px;
+    background-color: var(--dark-pastel-green);
+    font-family: "Salsa", cursive;
+    font-size: 5vh;
+    color: white;
+    border-radius: 30px;
+    width: 45vh;
+    height: 12vh;
+    border: 4px solid var(--sage-green);
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+.malagos-parks-content-horizontal {
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+    position: absolute;
+    margin-top: 70vh;
+}
+
+.pine-trees-1 {
+    transform: translate(3%, 3%) scale(0.9);
+}
+
+.pine-trees-2 {
+    transform: translateX(-7%) scale(0.9);
+}
+
+.staycation-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15vh;
+}
+
+.staycation-header-image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+.staycation-header-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+  
+.staycation-header-image-container h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Salsa", cursive;
+}
+
+.staycation-content {
+    display: flex;
+    height: 415vh;
+    background-image: linear-gradient(#FFF4D2, #F3CD4F);
+    font-family: "Salsa", regular;
+}
+
+.staycation-content h1 {
+    color: var(--pastel-orange);
+    font-size: 10vh;
+}
+
+.staycation-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.staycation-content-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 5vh;
+}
+
+.staycation-content-1-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10vh;
+    margin-right: 5vh;
+    margin-left: 10vh;
+    padding: 0; 
+    height: auto;
+}
+
+.staycation-content-1-img img {
+    display: block;
+    object-fit: cover;
+    width: 100vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.staycation-content-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0vh;
+    margin-left: 5vh;
+}
+
+.staycation-content-1-text h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.staycation-content-1-text .family-suite-button {
+    padding: 15px;
+    background-color: var(--pastel-orange);
+    font-family: "Salsa", cursive;
+    font-size: 5vh;
+    color: white;
+    border-radius: 30px;
+    width: 45vh;
+    height: 12vh;
+    border: 4px solid var(--dark-pastel-orange);
+    cursor: pointer;
+    margin-top: 7vh;
+}
+
+/*STAYCATION 2 */
+.staycation-content-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5vh;
+}
+
+.staycation-content-2-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 10vh;
+    margin-left: 5vh;
+    padding: 0; 
+    height: auto;
+}
+
+.staycation-content-2-img img {
+    display: block;
+    object-fit: cover;
+    width: 100vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.staycation-content-2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+    margin-left: 0vh;
+}
+
+.staycation-content-2-text h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.staycation-content-2-text .honeymoon-suite-button {
+    padding: 15px;
+    background-color: var(--pastel-orange);
+    font-family: "Salsa", cursive;
+    font-size: 5vh;
+    color: white;
+    border-radius: 30px;
+    width: 45vh;
+    height: 12vh;
+    border: 4px solid var(--dark-pastel-orange);
+    cursor: pointer;
+    margin-top: 7vh;
+}
+
+/*STAYCATION 3*/
+.staycation-content-3 {
+    display: flex;
+    flex-direction: row;
+    margin: 5vh;
+}
+
+.staycation-content-3-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10vh;
+    margin-right: 5vh;
+    margin-left: 10vh;
+    padding: 0; 
+    height: auto;
+}
+
+.staycation-content-3-img img {
+    display: block;
+    object-fit: cover;
+    width: 100vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.staycation-content-3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0vh;
+    margin-left: 5vh;
+}
+
+.staycation-content-3-text h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.staycation-content-3-text .executive-villa-button {
+    padding: 15px;
+    background-color: var(--pastel-orange);
+    font-family: "Salsa", cursive;
+    font-size: 5vh;
+    color: white;
+    border-radius: 30px;
+    width: 45vh;
+    height: 12vh;
+    border: 4px solid var(--dark-pastel-orange);
+    cursor: pointer;
+    margin-top: 7vh;
+}
+
+/*STAYCATION 4*/
+.staycation-content-4 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5vh;
+}
+
+.staycation-content-4-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 10vh;
+    margin-left: 5vh;
+    padding: 0; 
+    height: auto;
+}
+
+.staycation-content-4-img img {
+    display: block;
+    object-fit: cover;
+    width: 100vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.staycation-content-4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vh;
+    margin-left: 0vh;
+}
+
+.staycation-content-4-text h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.staycation-content-4-text .deluxe-room-button {
+    padding: 15px;
+    background-color: var(--pastel-orange);
+    font-family: "Salsa", cursive;
+    font-size: 5vh;
+    color: white;
+    border-radius: 30px;
+    width: 45vh;
+    height: 12vh;
+    border: 4px solid var(--dark-pastel-orange);
+    cursor: pointer;
+    margin-top: 7vh;
+}
+
+/*STAYCATION 5*/
+.staycation-content-5 {
+    display: flex;
+    flex-direction: row;
+    margin: 5vh;
+}
+
+.staycation-content-5-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10vh;
+    margin-right: 5vh;
+    margin-left: 10vh;
+    padding: 0; 
+    height: auto;
+}
+
+.staycation-content-5-img img {
+    display: block;
+    object-fit: cover;
+    width: 100vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.staycation-content-5-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0vh;
+    margin-left: 5vh;
+}
+
+.staycation-content-5-text h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.staycation-content-5-text .the-legacy-button {
+    padding: 15px;
+    background-color: var(--pastel-orange);
+    font-family: "Salsa", cursive;
+    font-size: 5vh;
+    color: white;
+    border-radius: 30px;
+    width: 45vh;
+    height: 12vh;
+    border: 4px solid var(--dark-pastel-orange);
+    cursor: pointer;
+    margin-top: 7vh;
+}
+
+/*CHOCOLATE SPA*/
+.chocolate-spa-header {
+    display: flex;
+    flex-direction: column;
+    height: 296px;
+    margin-bottom: -20px;
+}
+
+.chocolate-spa-header-image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+.chocolate-spa-header-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+  
+.chocolate-spa-header-image-container h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Salsa", cursive;
+}
+
+.chocolate-spa-content {
+    display: flex;
+    flex-direction: row;
+    margin: 5vh;
+    height: 140vh;
+}
+
+.chocolate-spa-content-img {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10vh;
+    margin-right: 5vh;
+    margin-left: 18vh;
+    padding: 0; 
+    height: auto;
+}
+
+.chocolate-spa-img-content {
+    position: relative;
+}
+
+.chocolate-spa-content-img .chocolate-spa-img {
+    display: block;
+    object-fit: cover;
+    width: auto;
+    height: 100vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+    z-index: 0;
+}
+
+.chocolate-spa-content-img .chocolate-img {
+    position: relative;
+    object-fit: cover;
+    width: 20vh;
+    height: 30vh;
+    z-index: 1; 
+    transform: translate(-20%, -80%);
+}
+
+.chocolate-spa-content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0vh;
+    margin-left: 5vh;
+    margin-bottom: 20vh;
+}
+
+.chocolate-spa-content-text p {
+    text-align: center;
+    margin-top: 4vh; 
+    font-size: 6vh;
+    font-family: "Caladea", regular;
+    color: var(--dark-pastel-orange);
+}
+
+.chocolate-spa-content-text .chocolate-spa-button {
+    padding: 15px;
+    background-color: var(--dark-pastel-orange);
+    font-family: "Salsa", cursive;
+    font-size: 5vh;
+    color: white;
+    border-radius: 30px;
+    width: 60vh;
+    height: 12vh;
+    border: 4px solid var(--brown);
+    cursor: pointer;
+    margin-top: 7vh;
+}
+
+/*CELEBRATIONS*/
+.celebrations-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15vh;
+}
+
+.celebrations-header-image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+.celebrations-header-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+  
+.celebrations-header-image-container h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -55%);
+    text-align: center;
+    font-size: 5vw;
+    font-family: "Salsa", cursive;
+}
+
+.celebrations-content {
+    display: flex;
+    height: 290vh;
+    background-image: linear-gradient(#8CA551, #353F1F);
+    font-family: "Salsa", regular;
+    color: white;
+    text-align: center;
+}
+
+.celebrations-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.celebrations-content-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.celebrations-content-1-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10vh;
+    margin-right: 5vh;
+    margin-left: 20vh;
+    padding: 0; 
+    height: auto;
+}
+
+.celebrations-content-1-img img {
+    display: block;
+    object-fit: cover;
+    width: 80vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.celebrations-content-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0vh;
+    margin-left: 10vh;
+}
+
+.celebrations-content-1-text h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 10vh;
+}
+/*CELEBRATIONS 2*/
+.celebrations-content-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.celebrations-content-2-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10vh;
+    margin-right: 16vh;
+    margin-left: 5vh;
+    padding: 0; 
+    height: auto;
+}
+
+.celebrations-content-2-img img {
+    display: block;
+    object-fit: cover;
+    width: 80vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.celebrations-content-2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0vh;
+    margin-left: 20vh;
+}
+
+.celebrations-content-2-text h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 10vh;
+}
+/*CELEBRATIONS 3*/
+.celebrations-content-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.celebrations-content-3-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10vh;
+    margin-right: 5vh;
+    margin-left: 20vh;
+    padding: 0; 
+    height: auto;
+}
+
+.celebrations-content-3-img img {
+    display: block;
+    object-fit: cover;
+    width: 80vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.celebrations-content-3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20vh;
+    margin-left: 10vh;
+}
+
+.celebrations-content-3-text h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 10vh;
+}
+/*INQUIRE SECTION*/
+.celebrations-content-inquire {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;   
+    width: 100%;
+}
+
+.celebrations-content-inquire-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.celebrations-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.celebrations-content-text h1 {
+    margin-bottom: 3vw;
+    font-size: 3.5vw;
+}
+
+.inquire-now-button {
+    padding: 15px;
+    background-color: var(--dark-pastel-green);
+    font-family: "Salsa", cursive;
+    font-size: 5vh;
+    color: white;
+    border-radius: 30px;
+    width: 30vw;
+    height: 6vw;
+    border: 4px solid var(--sage-green);
+    cursor: pointer;
+    margin-top: -20px;
+}
+
+/*
+
+.staycation-content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.staycation-content-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 5vh;
+}
+
+.staycation-content-1-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10vh;
+    margin-right: 5vh;
+    margin-left: 10vh;
+    padding: 0; 
+    height: auto;
+}
+
+.staycation-content-1-img img {
+    display: block;
+    object-fit: cover;
+    width: 100vh;
+    height: 60vh;
+    border-radius: 30px;
+    margin-bottom: 20px; 
+}
+
+.staycation-content-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0vh;
+    margin-left: 5vh;
+}
+
+.staycation-content-1-text h1 {
+    padding: 0;
+    margin: 0;
+}
